@@ -6,6 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Collector</title>
 
+<!-- Attached Bootstrap -->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<!-- Attached Google Font -->
+
+<link href="https://fonts.googleapis.com/css?family=Bahianita|Bangers|Passion+One&display=swap" rel="stylesheet">
+
 <!-- Attached Style Sheet -->
 <link rel="stylesheet" href="assets/css/style.css">
 
@@ -21,22 +29,43 @@
 <!-- Main header named Moria or Less -->
 <h1>Moria or Less</h1>
 
+<div class="container">
+
+<div class="row">
+    <div class="col-lg-3">
+
 <!-- Create a paragraph explaining the game -->
 <p>The Mines of Moria have long overflown with gold, silver, precious gems and iron, that you and your family have unearthed for generations.</p>
 
-<p>Your resoponsibilty as a young Dwarf is to gather as much in your mining cart as possible and bring it back to the Great Forges.</p>
+    </div>
+    <div class="col-lg-3">
+<p>Your responsibility as a young Dwarf is to gather as much in your mining cart as possible and bring it back to the Great Forges to the awaiting blacksmiths.</p>
 
-<p>However, the pathway along the mines can be trecherous, and if you overload your cart the haul will collapse the mining bridges!</p>
+    </div>
+    <div class="col-lg-3">
+<p>However, the pathway along the mines can be treacherous, and if you overload your cart the haul will collapse the mining bridges!</p>
 
-<p>Your goal is to load your cart to the maximun number of poounds allowed for the mining path you're prospecting.</p>
+    </div>
 
+    <div class="col-lg-3">
+<p>Your goal is to load your cart to the maximun number of pounds allowed for the mining path you're prospecting without exceeding the limit.</p>
+    </div>
+</div>
 
 <div id= "game">
 
     <h1>Weight Limit of Mining Bridge: <span id="pathWeight"></span> Pounds</h1>
 
-    <p id="wins-text">Won<span></span></p>
-    <p id="losses-text">Loss<span></span></p>
+<div class="row">
+    <div class="col-lg-12">
+        <p id="wins-text">Won<span></span></p>
+    </div>
+    <div class="col-lg-12">
+        <p id="losses-text">Loss<span></span></p>
+    </div> 
+</div>
+</div>
+    
 
 <!-- Create images of the crystals * Each crystal should have a random hidden value between 1 - 12.-->
 <!-- images under here -->
@@ -46,13 +75,16 @@
 		<img src="assets/images/gold.jpg" class=gemImage id="two" alt="gold">
 		<img src="assets/images/iron.png" class=gemImage id= "three" alt="iron">
 		<img src="assets/images/stones.jpg" class=gemImage id= "four" alt="stones">
-	</div>
+    </div>
+    
+    <br>
 
     <p>Total Cart Weight:</p>
 
     <p id="total-score"><span>0</span> Pounds</p>
 
 </div>
+
     
 <!-- Attached Javascript -->
 <script type="text/javascript" src="assets/javascript/game.js"></script>

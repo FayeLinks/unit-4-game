@@ -1,8 +1,30 @@
-img {
-        width: 200px;
-        height: 200px;
-}
 body {
     background-color: rgb(65, 36, 4);
     color: antiquewhite;
+    text-align: center;
 }
+.row {
+    float: left;
+}
+img {
+    clear: both;
+    width: 200px;
+    height: 200px;
+}
+h1 {
+    font-family: 'Bahianita', cursive;
+    font-size: 75px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px rgb(241, 196, 46);
+}
+p {
+    font-family: 'Passion One', cursive;
+    font-size: 25px;
+    background-color: rgb(150, 80, 24);
+    text-shadow: 2px 2px 4px black;
+}
+
+font-family: 'Bahianita', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Passion One', cursive;
+/* #634020 */
