@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+
+<!-- Attached Style Sheet -->
+<link rel="stylesheet" href="assets/css/style.css">
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<!-- add Jquery link -->
+
+<body>
+
+
+<!-- Main header named Moria or Less -->
+<h1>Moria or Less</h1>
+
+<!-- Create a paragraph explaining the game -->
+<p>The Mines of Moria have long overflown with gold, silver, precious gems and iron, that you and your family have unearthed for generations.</p>
+
+<p>Your resoponsibilty as a young Dwarf is to gather as much in your mining cart as possible and bring it back to the Great Forges.</p>
+
+<p>However, the pathway along the mines can be trecherous, and if you overload your cart the haul will collapse the mining bridges!</p>
+
+<p>Your goal is to load your cart to the maximun number of poounds allowed for the mining path you're prospecting.</p>
+
+
+<div id= "game">
+
+    <h1>Weight Limit of Mining Bridge: <span id="pathWeight"></span> Pounds</h1>
+
+    <p id="wins-text">Won<span></span></p>
+    <p id="losses-text">Loss<span></span></p>
+
+<!-- images under here -->
+
+<div class="crystals">
+		<img src="assets/images/gems.jpg" class=gemImage id="one" alt="gems">
+		<img src="assets/images/gold.jpg" class=gemImage id="two" alt="gold">
+		<img src="assets/images/iron.png" class=gemImage id= "three" alt="iron">
+		<img src="assets/images/stones.jpg" class=gemImage id= "four" alt="stones">
+	</div>
+
+    <p>Total Cart Weight:</p>
+
+    <p id="total-score"><span>0</span> Pounds</p>
+
+</div>
+    
+<!-- Attached Javascript -->
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
