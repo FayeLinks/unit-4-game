@@ -22,9 +22,5 @@ p {
     font-size: 25px;
     background-color: rgb(150, 80, 24);
     text-shadow: 2px 2px 4px black;
+    border: 2px solid rgb(97, 92, 82);
 }
-
-font-family: 'Bahianita', cursive;
-font-family: 'Bangers', cursive;
-font-family: 'Passion One', cursive;
-/* #634020 */
