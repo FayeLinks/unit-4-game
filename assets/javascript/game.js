@@ -29,6 +29,8 @@ function reset() {
     num2= Math.floor(Math.random()*6+1);
     num3= Math.floor(Math.random()*6+1) + 6;
     num4= Math.floor(Math.random()*6+1) +6;
+
+    $("#total-score").text(0 + " Pounds");
 }
 
 // Create click events for the images below
